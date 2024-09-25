@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "format": "npx prettier --write .",
     "lint": "next lint",
     "prepare": "husky"
   },
   "dependencies": {
+    "@types/prettier": "^3.0.0",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18"
@@ -20,8 +22,10 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.13",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "husky": "^9.1.6",
-    "prettier": "^3.3.3",
+    "prettier": "3.3.3",
     "typescript": "^5"
   }
 }
