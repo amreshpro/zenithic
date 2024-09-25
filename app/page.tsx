@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <h1>Zenithic Component</h1>
       <Button
-        variant="primary"
+        variant="ghost"
         onClick={() => {
           console.log("Clicked");
         }}
