@@ -1,7 +1,8 @@
 {
   "name": "zenithic",
   "version": "0.1.0",
-  "private": true,
+  "author": "Amresh amresh.terminal@gmail.com",
+  "main": "index.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

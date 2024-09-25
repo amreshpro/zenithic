@@ -26,7 +26,7 @@ const MainButton = styled.button`
   color: aliceblue;
   background-color: #e341e9;
   outline: none;
-  border:none;
+  border: none;
 `;
 
 /* const sizeStyles = {
@@ -70,7 +70,7 @@ export function Button(props: ButtonProps) {
   const {
     title = "Button",
     onClick = () => {},
- 
+
     children,
   } = props;
 
