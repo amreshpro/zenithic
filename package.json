@@ -11,6 +11,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@types/prettier": "^3.0.0",
     "next": "14.2.13",
     "react": "^18",
